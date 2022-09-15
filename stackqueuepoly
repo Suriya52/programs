@@ -8,7 +8,7 @@ struct Node {
     int data;
     struct Node *next;
 };
-Node* top = NULL;
+struct Node* top = NULL;
 
 // Push() operation on a  stack
 void push(int value) {
